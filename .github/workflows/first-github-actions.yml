@@ -1,0 +1,9 @@
+name: Run shell comands
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo string
+        run: echo "Hello, world! desde el github actions"
